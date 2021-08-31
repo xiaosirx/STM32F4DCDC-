@@ -80,6 +80,7 @@ u8 Key_Scan()
 			PDout(14) = 1;
 			PDout(15) = 1;
 			PEout(8)  = 1;
+			delay_ms(5);		//µÈ´ý·´Ó¦
 			
 			temp = PBin(15) * 1 + PFin(0) * 2
 				 + PFin(2)  * 4 + PFin(4) * 8;
